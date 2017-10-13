@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width:device-width,user-scalable=no">
+    <title>Final de CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dancing" type="text/css"/>
+    <style media="screen">
+      #banner nav #inicio:link, #banner nav #inicio:visited {
+        display: inline-block;
+        height: 30px;
+        padding: 3px 0.4em;
+        text-decoration: none;
+        color: #FFF;
+    }
+    </style>
+  </head>
+  <body>
+    <!--Encabezado de la página-->
+    <header id="banner">
+    <nav>
+    <!--Título de la página-->
+    <h1>Comenzando con la <strong>Fotografía</strong></h1>
+    <!-- Barra de menú -->
+      <ul>
+        <li><a href="index.html" id="inicio">Inicio</a></li>
+        <li><a href="html/paisajes.html">Paisajes</a></li>
+        <li><a href="html/retratos.html">Retratos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Contenido de la página -->
+  <div class="contenido">
+  <!-- Primera imagen -->
+    <section>
+      <figure>
+      <img src="img/principal.jpg" alt="principal">
+      </figure>
+    </section>
+  <!-- Segunda  y Tercera imagen -->
+    <section>
+      <figure>
+        <img src="img/paisaje.jpg" alt="paisaje">
+        <figcaption>Paisajes</figcaption>
+      </figure>
+      <figure>
+        <img src="img/retrato.jpg" alt="retrato">
+        <figcaption>Retratos</figcaption>
+      </figure>
+    </section>
+  </div>
+  <!-- Pie de página -->
+    <footer>
+      <section id="contacto">
+        <header>
+          <h2 class="ache2">Contacto</h2>
+        </header>
+        <section>
+          <h4 class="ache4">sergio.cadena@fotogrfiasc.com</h4>
+          <h4 class="ache4">Calle 23 #46a-39</h4>
+          <h4 class="ache4">+57 3108876757</h4>
+        </section>
+      </section>
+      <section id="terminos">
+        <header>
+          <h2 class="ache2">Términos</h2>
+        </header>
+        <section>
+          <h4 class="ache4">Conoce nuestros <a href="#">terminos y condiciones</a></h4>
+        </section>
+      </section>
+      <section id="redes">
+        <header>
+          <h2 class="ache2">Redes Sociales</h2>
+        </header>
+        <section>
+          <h4 class="ache4">Comparte en nuestras redes sociales:</h4>
+          <h4 class="ache4"><img id="facebook" src="img/facebook-icon.png" alt="facebook">Facebook</h4>
+          <h4 class="ache4"><img id="google" src="img/google-icon.png" alt="google">Google+</h4>
+          <h4 class="ache4"><img id="instagram" src="img/instagram-icon.png" alt="instagram">Instagram</h4>
+        </section>
+      </section>
+      <section id="derechos">
+        <header>
+          <h2 class="ache2">Derechos</h2>
+        </header>
+        <section>
+          <h4 class="ache4">© Todos los derechos reservados -2017-</h4>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
